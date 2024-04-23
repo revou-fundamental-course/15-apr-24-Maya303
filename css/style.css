@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #effafc;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 0px 0px 16px 1px #b8b7b7;
+  background-color: white;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.opsi-satuan {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opsi-satuan select {
+  font-size: 16px;
+  width: 45%;
+  border-radius: 5px;
+}
+
+.opsi-satuan button {
+    background: none;
+    border: none;
+}
+.opsi-satuan  {
+    color: white;
+
+}
+
+.nilai-hasil {
+  display: flex;
+  margin: 0 20px 0 0;
+  width: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.nilai,
+.hasil {
+  width: 50%;
+}
+.hasil {
+  border-left: 1px solid black;
+}
+
+.reset-button {
+  height: 20px;
+  width: 20px;
+  font-weight: 10px;
+  background: none;
+  border: none;
+  margin-top: 0;
+  margin-right: 7px;
+  float: inline-start;
+  outline: none;
+  background-color: white;
+}
+
+.nilai-hasil {
+  margin: 20px 0;
+}
+
+.nilai-hasil .nilai {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nilai-hasil input {
+  width: 98%;
+  height: 40px;
+  font-size: 16px;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+
+.nilai-hasil .nilai input {
+  width: 87%;
+  background-color: white;
+}
+
+.button-explain button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  padding: 7px;
+  background-color: #87a2fb;
+  color: white;
+  margin: 2px 0;
+  border: 0.5px solid black;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.button-explain textarea {
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+textarea {
+  width: 99%;
+  resize: none;
+  outline: none;
+  border: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Suhu Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Maya Ananda Konversi Suhu</h1>
+        </header>
+
+        <article>
+            <section class="input-result">
+                <div class="opsi-satuan">
+                    <select name="opt-1" id="opt-1">
+                        <option value="celcius">Celcius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="reamur">Reamur</option>
+                        <option value="rankine">Rankine</option>
+                    </select>
+
+                    <button name="reverse-button" id="reverseButton"><box-icon name='transfer-alt' class="reverse"></box-icon></button>
+
+                    <select name="opt-2" id="opt-2">
+                        <option value="celcius">Celcius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="reamur">Reamur</option>
+                        <option value="rankine">Rankine</option>
+
+                    </select>
+                </div>
+                <div class="nilai-hasil">
+                    <div class="nilai">
+                        <input type="number" name="input-nilai-suhu" id="input-nilai-suhu">
+                        <button class="reset-button"><box-icon name='x'></box-icon></button>
+
+                    </div>
+                    <div class="hasil">
+                        <input type="number" name="hasil-operasi" id="hasil-operasi" readonly>
+                    </div>
+                </div>
+            </section>
+            <section class="button-explain">
+                <button class="konversi-button">Convert</button>
+                <textarea name="explain" id="explain" cols="30" ></textarea>
+            </section>
+        </article>
+
+    </div>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
